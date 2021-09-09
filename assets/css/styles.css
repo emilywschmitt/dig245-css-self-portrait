@@ -1,20 +1,56 @@
 
 /* css */
-.full-body{
-  width: 200px;
+.hair{
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  width: 800px;
+  height: 650px;
+  background: #9C6A0A;}
+
+.face{
+  position: absolute;
+  left: 300px;
+  top:150px;
+  width: 500px;
 height: 500px;
-background: blue; }
+background: #EBC7FF;}
 
-.lefthair{position: absolute;
-transform: rotate(45deg);
-width: 161.44px;
-height: 530.92px;
-background: #9C6A0A;
-border: 6px solid #9C6A0A;}
+.rosey-1{
+position: absolute;
+left: 310px;
+top: 370px;
+width: 90px;
+height: 90px;
+background: #EC84A2;}
 
-.face {
-  width: 40px;
- height: 150px;
- left: 130px;
- top: 31px;
-  background: #DA8592;}
+.rosey-2{
+  position: absolute;
+  left: 700px;
+  top: 370px;
+  width: 90px;
+  height: 90px;
+  background: #EC84A2;}
+
+.mouth{
+  position: absolute;
+  left: 335px;
+  top: 500px;
+  width: 10px;
+  length: 50px;
+  background: black;
+  transform: rotate(-45deg)}
+
+  .mouth-2{
+    position: absolute;
+    left: 70px;
+    top: 500px;
+    width: 10px;
+    length: 50px;
+    background: black;
+    transform: rotate(-45deg)}
+
+  .eye-right{
+    width: 100px;
+    length: 50px;
+    background: blue;}
