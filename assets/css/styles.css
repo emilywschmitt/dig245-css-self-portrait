@@ -1,31 +1,29 @@
 
 /* css */
+div {position: absolute;}
+
 .hair{
-  position: absolute;
-  left: 150px;
+  left: 100px;
   top: 100px;
   width: 800px;
-  height: 650px;
+  height: 700px;
   background: #9C6A0A;}
 
 .face{
-  position: absolute;
-  left: 300px;
+  left: 150px;
   top:150px;
-  width: 500px;
-height: 500px;
+  width: 700px;
+height: 600px;
 background: #EBC7FF;}
 
-.rosey-1{
-position: absolute;
+.rosey1 {
 left: 310px;
 top: 370px;
 width: 90px;
 height: 90px;
 background: #EC84A2;}
 
-.rosey-2{
-  position: absolute;
+.rosey2{
   left: 700px;
   top: 370px;
   width: 90px;
@@ -33,7 +31,6 @@ background: #EC84A2;}
   background: #EC84A2;}
 
 .mouth{
-  position: absolute;
   left: 335px;
   top: 500px;
   width: 10px;
@@ -41,8 +38,7 @@ background: #EC84A2;}
   background: black;
   transform: rotate(-45deg)}
 
-  .mouth-2{
-    position: absolute;
+.mouth2{
     left: 700px;
     top: 100px;
     width: 1000px;
@@ -50,13 +46,7 @@ background: #EC84A2;}
     background: black;
     transform: rotate(-45deg)}
 
-  .eye-right{
+.eyeright{
     width: 100px;
     length: 50px;
     background: blue;}
-
-  .eye-left{
-    width: 100px;
-    length: 400px;
-    background: 900px;
-  }
