@@ -1,52 +1,65 @@
 
 /* css */
-div {position: absolute;}
+
+
 
 .hair{
+  position: absolute;
   left: 100px;
   top: 100px;
   width: 800px;
-  height: 700px;
+  height: 1000px;
   background: #9C6A0A;}
 
 .face{
+  position: absolute;
   left: 150px;
   top:150px;
   width: 700px;
-height: 600px;
-background: #EBC7FF;}
+height: 750px;
+background: #EBC7FF;
+border-radius: 700px}
 
-.rosey1 {
-left: 310px;
-top: 370px;
-width: 90px;
-height: 90px;
+.rosey1{
+position: absolute;
+left: 200px;
+top: 450px;
+width: 100px;
+height: 100px;
 background: #EC84A2;}
 
 .rosey2{
+  position: absolute;
   left: 700px;
-  top: 370px;
-  width: 90px;
-  height: 90px;
+  top: 450px;
+  width: 100px;
+  height: 100px;
   background: #EC84A2;}
 
-.mouth{
-  left: 335px;
-  top: 500px;
-  width: 10px;
-  length: 50px;
+.mouth-1{
+  position: absolute;
+  left: 300px;
+  top: 600px;
+  width: 400px;
+  height: 100px;
+  border-radius: 7px 7px 100px 100px;
   background: black;
-  transform: rotate(-45deg)}
-
-.mouth2{
-    left: 700px;
-    top: 100px;
-    width: 1000px;
-    length: 500px;
-    background: black;
-    transform: rotate(-45deg)}
+}
 
 .eyeright{
-    width: 100px;
-    length: 50px;
-    background: blue;}
+  position: absolute;
+top: 220px;
+left: 600px;
+width: 150px;
+height: 150px;
+background: blue;
+border-radius: 50%;}
+
+.eyeleft{
+  position: absolute;
+  top: 220px;
+  left: 250px;
+  width: 150px;
+  height: 150px;
+  background: blue;
+  border-radius: 50%;}
