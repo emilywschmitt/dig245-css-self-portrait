@@ -1,5 +1,16 @@
 
 /* css */
+.hair1{
+  position: relative;
+  width: 200px;
+  right: 60px;
+  bottom: 70px;
+  height: 500px;
+  border-radius: 70%;
+  background: brown;
+  transform: rotate(34deg);
+  z-index: 2;
+}
 
 .face{
   position: absolute;
@@ -55,6 +66,7 @@ border-radius: 50%;}
     height: 100px;
     background: #2e536f;
     border-radius: 50%;
+    z-index: 3;
 }
 
 .eyeshine-1{
