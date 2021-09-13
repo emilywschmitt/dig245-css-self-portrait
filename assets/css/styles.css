@@ -4,12 +4,47 @@
   position: relative;
   width: 200px;
   right: 60px;
-  bottom: 70px;
+  bottom: 100px;
   height: 500px;
-  border-radius: 70%;
-  background: brown;
-  transform: rotate(34deg);
+  border-radius: 4000px 40px 40px 6000px;
+  background: #a5653e;;
+  transform: rotate(45deg);
   z-index: 2;
+}
+
+.hair2{
+  position: relative;
+    width: 200px;
+    left: 290px;
+    bottom: 660px;
+    height: 500px;
+    border-radius: 600px 4000px 40px;
+    background: #a5653e;
+    transform: rotate(308deg);
+    z-index: 2;
+}
+
+.bodyofhair{
+  position: relative;
+    bottom: 910px;
+    z-index: -1;
+    height: 500px;
+    width: 500px;
+    border-radius: 25px 25px 25px 0;
+    transform: rotate(
+270deg);
+    background: #a5653e;}
+
+.bodyofhair::before {
+  content: "";
+  position: absolute;
+
+  background-color: transparent;
+  bottom: -50px;
+  height: 50px;
+  width: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0px -25px 0 0 #a5653e;
 }
 
 .face{
@@ -18,7 +53,7 @@
   top:150px;
   width: 500px;
 height: 550px;
-background: #ec84a294;
+background: #ec84a2;
 border-radius: 700px}
 
 .rosey1{
@@ -27,7 +62,7 @@ border-radius: 700px}
     top: 275px;
     width: 150px;
     height: 150px;
-    background: #EC84A2;
+    background: #cc154a;
     border-radius: 50%;}
 
 .rosey2{
@@ -36,7 +71,7 @@ border-radius: 700px}
     top: 275px;
     width: 150px;
     height: 150px;
-    background: #EC84A2;
+    background: #cc154a;
     border-radius: 50%}
 
 .mouth-1{
@@ -55,8 +90,9 @@ top: 130px;
 left: 300px;
 width: 100px;
 height: 100px;
-background: #2e536f;
-border-radius: 50%;}
+background: black;
+border-radius: 50%;
+z-index: 3;}
 
 .eyeleft{
     position: absolute;
@@ -64,22 +100,10 @@ border-radius: 50%;}
     left: 100px;
     width: 100px;
     height: 100px;
-    background: #2e536f;
+    background: black;
     border-radius: 50%;
     z-index: 3;
 }
-
-.eyeshine-1{
-  position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 25px;
-    height: 25px;
-    background: white;
-    border-radius: 50%;
-}
-
-
 
 .nose{
   position: absolute;
