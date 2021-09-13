@@ -1,5 +1,106 @@
 
 /* css */
+.alter{
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+.circle1{
+  position: absolute;
+  left: 250px;
+  width: 100px;
+height: 100px;
+border-radius: 50%;
+background: yellow;
+}
+
+.circle2{
+  position: absolute;
+left: 350px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: red;
+}
+
+.circle3{
+  position: absolute;
+left: 450px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: blue;
+}
+
+.circle4{
+  position: absolute;
+left: 550px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: yellow;
+}
+
+.circle5{
+  position: absolute;
+left: 650px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: red;
+}
+
+.circle6{
+  position: absolute;
+left: 750px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: blue;
+}
+
+.circle7{
+  position: absolute;
+left: 850px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: yellow;
+}
+
+.circle8{
+  position: absolute;
+left: 950px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: red;
+}
+
+.circle9{
+  position: absolute;
+left: 1050px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: blue;
+}
+
+.circle10{
+  position: absolute;
+left: 1150px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: yellow
+}
+
+.bottomborder{
+  top: 835px;
+position: absolute;
+z-index: -9;}
+
 .hair1{
   position: relative;
   width: 200px;
